@@ -9,7 +9,7 @@ T Add(T a, T b)
 int AddInt(int a, int b);
 
 template <typename T1, typename T2>
-T1 Mul(T1 a, T2 b)
+auto Mul(T1 a, T2 b)
 {
     return a * b;
 }
