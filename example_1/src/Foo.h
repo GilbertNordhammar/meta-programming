@@ -2,7 +2,9 @@
 
 #include <iostream>
 
-void Foo()
+static void Foo()
 {
     std::cout << "Foo fighters" << std::endl;
 }
+
+void Foo2();
